@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="progetto storia" >
+  <title>Storia</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+  <header class="header">
+    <div class="header__content">
+      <a class="header__logo" href="index.html">
+        <strong>La Rivoluzione Francese</strong>
+      </a>
+      <ul class="header__menu">
+        <li><a href="anticoregime.html">L'antico Regime</a></li>
+        <li><a href="rivoluzione.html">Rivoluzione del 1789</a></li>
+        <li><a href="monarchie.html">Monarchie</a></li>
+        <li><a href="robespierre.html">Robespierre</a></li>
+        <li><a href="finale.html">Finale</a></li>
+      </ul>
+      <div class="header__quick">
+        
+          <div class="icon-hamburger">
+            <span></span>
+            <span></span>
+          </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="cover" style="background-image:linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.6)), url('foto1.jpg');"> </div>
+    
+  <div class="spacer"></div>
+
+
+  <div class="grid">
+    <div class="col-100">
+      <h1>Lavoro di gruppo sulla rivoluzione francese</h1>
+      <h3>Membri del gruppo: Michele Leoni, Francesca Petrachi, Gabriele Russo</h3>
+      
+    </div>
+  
+   <script> 
+    let item = document.querySelector('.icon-hamburger');
+    item.addEventListener("click", function() {
+      document.body.classList.toggle('menu-open');
+    });
+   </script>
+
+</body>
+</html>

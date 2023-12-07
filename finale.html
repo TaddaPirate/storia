@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="progetto storia" >
+  <title>Storia</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+  <header class="header">
+    <div class="header__content">
+      <a class="header__logo" href="index.html">
+        <strong>La Rivoluzione Francese</strong>
+      </a>
+      <ul class="header__menu">
+        <li><a href="anticoregime.html">L'antico Regime</a></li>
+        <li><a href="rivoluzione.html">Rivoluzione del 1789</a></li>
+        <li><a href="monarchie.html">Monarchie</a></li>
+        <li><a href="robespierre.html">Robespierre</a></li>
+        <li><a href="finale.html">Finale</a></li>
+      </ul>
+      <div class="header__quick">
+        
+          <div class="icon-hamburger">
+            <span></span>
+            <span></span>
+          </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="cover" style="background-image:linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.6)), url('foto1.jpg');"> </div>
+    
+  <div class="spacer"></div>
+
+
+  <div class="grid">
+    <div class="col-100">
+      <h1>La fase finale della Rivoluzione</h1>
+      <p>
+        Caduto Robespierre, il nuovo gruppo dirigente della Convenzione formato da deputati
+        moderati (definiti "termidoriani" in riferimento agli eventi del 9 termidoro) si pose l'obiettivo di
+        stabilizzare il paese attraverso delle iniziative:<br>
+        -ripristinate le garanzie individuali, attraverso la liberazione di migliaia di prigionieri politici e
+        la concessione di un'amnistia ai controrivoluzionari che avessero rinunciato alla lotta contro
+        la Repubblica;<br>
+        -smantellamento delle istituzioni del periodo del Terrore: il Comitato di salute pubblica e il
+        Tribunale rivoluzionario furono sciolti; i club giacobini vennero chiusi e furono condannati tutti
+        gli uomini compromessi con il precedente regime.<br>
+        Nell'economia, i termidoriani imposero una linea liberista: vennero revocati provvedimenti
+        come il maximum sui prezzi, così da rimuovere ogni ostacolo alla libertà di commercio.<br>
+        L'orientamento antigiacobino dei termidoriani finì a incoraggiare la ripresa delle forze
+        reazionarie e realiste, che innescarono un'ondata di vendette. A Parigi, alcuni gruppi di
+        giovani borghesi arricchiti detti "gioventù dorata" cominciarono a perseguitare i sanculotti e
+        quelli del Comitato di salute pubblica, dando vita a sanguinose cacce all'uomo. Nelle
+        province del Sud i controrivoluzionari realisti promuovevano atti di estrema violenza contro i
+        giacobini e i preti costituzionali, inaugurando il "Terrore bianco" (colore della bandiera dei
+        Borbone di cui erano sostenitori), che portò all'eccidio di migliaia di persone.
+    </p>
+      
+    </div>
+
+  
+   <script> 
+    let item = document.querySelector('.icon-hamburger');
+    item.addEventListener("click", function() {
+      document.body.classList.toggle('menu-open');
+    });
+   </script>
+
+</body>
+</html>

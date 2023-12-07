@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="progetto storia" >
+  <title>Storia</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+  <header class="header">
+    <div class="header__content">
+      <a class="header__logo" href="index.html">
+        <strong>La Rivoluzione Francese</strong>
+      </a>
+      <ul class="header__menu">
+        <li><a href="anticoregime.html">L'antico Regime</a></li>
+        <li><a href="rivoluzione.html">Rivoluzione del 1789</a></li>
+        <li><a href="monarchie.html">Monarchie</a></li>
+        <li><a href="robespierre.html">Robespierre</a></li>
+        <li><a href="finale.html">Finale</a></li>
+      </ul>
+      <div class="header__quick">
+        
+          <div class="icon-hamburger">
+            <span></span>
+            <span></span>
+          </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="cover" style="background-image:linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.6)), url('foto1.jpg');">
+    
+  </div>
+
+  <div class="spacer"></div>
+
+
+  <div class="grid">
+    <div class="col-100">
+      <h1>Dalla Costituzione alla Caduta delle Monarchie </h1>
+
+      
+    </div>
+    <div class="col-100">
+      <p>Fin dall'estate del 1789 l'assemblea nazionale fu impegnata nel dibattito sui contenuti della
+        Costituzione. I deputati si trovavano in disaccordo sulle prerogative e il ruolo che il sovrano
+        avrebbe dovuto avere all'interno delle nuove istituzioni. Emersero 2 orientamenti prevalenti.
+        La maggioranza moderata era favorevole a un sistema monarchico sul modello inglese,
+        fondato su una Camera alta, nominata dal sovrano, e una bassa, eletta dai cittadini: un
+        sistema che riservava al re il diritto di veto sulle decisioni dell'assemblea parlamentare.I
+        deputati più radicali chiedevano invece un rafforzamento del potere del Parlamento.
+        Tra le due fazioni si giunse a un principio della divisione dei poteri:<br>
+        - il potere legislativo è stato conferito a una sola Camera (Assemblea legislativa), composta
+        da 745 deputati da eleggersi ogni 2 anni;<br>
+        -il potere esecutivo è stato attribuito al sovrano, il quale avrebbe avuto la prerogativa della
+        nomina dei ministri, della direzione della politica estera e del comando dell'esercito; ma sono
+        stati posti dei limiti: non avrebbe potuto sciogliere l'Assemblea, né dichiarare la guerra o
+        firmare i trattati di pace;<br>
+        -il potere giudiziario è stato affidato all'organo indipendente della magistratura, composta da
+        giudici eletti dai cittadini.<br>
+        </p>
+
+    </div>
+
+
+  </div>
+
+
+   <script> 
+    let item = document.querySelector('.icon-hamburger');
+    item.addEventListener("click", function() {
+      document.body.classList.toggle('menu-open');
+    });
+   </script>
+
+</body>
+</html>

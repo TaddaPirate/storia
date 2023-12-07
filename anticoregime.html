@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="progetto storia" >
+  <title>Storia</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+  <header class="header">
+    <div class="header__content">
+      <a class="header__logo" href="index.html">
+        <strong>La Rivoluzione Francese</strong>
+      </a>
+      <ul class="header__menu">
+        <li><a href="anticoregime.html">L'antico Regime</a></li>
+        <li><a href="rivoluzione.html">Rivoluzione del 1789</a></li>
+        <li><a href="monarchie.html">Monarchie</a></li>
+        <li><a href="robespierre.html">Robespierre</a></li>
+        <li><a href="finale.html">Finale</a></li>
+      </ul>
+      <div class="header__quick">
+        
+          <div class="icon-hamburger">
+            <span></span>
+            <span></span>
+          </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="cover" style="background-image:linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.6)), url('foto1.jpg');">
+    
+  </div>
+
+  <div class="spacer"></div>
+
+
+  <div class="grid">
+    <div class="col-100">
+      <h1>La Crisi dell'Antico Regime</h1>
+ 
+      
+    </div>
+    <div class="col-100">
+      <p>Nella seconda metà del Settecento, la società francese era divisa in tre ceti, chiamati anche
+        "ordini" o "stati":<br>
+        - i primi due (il 2% circa della popolazione) erano composti dal clero e dalla nobiltà.
+        Detenevano buona parte della proprietà delle terre e godevano di ampi privilegi, come la
+        quasi totale esenzione dalle tasse e imporre dazi e pedaggi;<br>
+        -il Terzo stato (il 98% della popolazione) comprendeva la massa dei contadini, i lavoratori
+        urbani e la borghesia terriera e cittadina. Dovevano pagare la maggior parte delle imposte
+        ed esclusi dalle alte cariche militari e politiche.<br>
+        In tale contesto la monarchia, ancora formalmente "assoluta", appariva in difficoltà. Il re Luigi
+        XVI (salito al trono nel 1774) era debole di carattere e spesso incapace di imporre la propria
+        autorità sulla corte, composta da circa 4000 persone dell'alta nobiltà. La moglie Maria
+        Antonietta era diventata bersaglio di critiche per le spese eccessive, viste come segno di
+        indifferenza verso i problemi del popolo francese.</p>
+
+    </div>
+
+   
+  </div>
+
+
+   <script> 
+    let item = document.querySelector('.icon-hamburger');
+    item.addEventListener("click", function() {
+      document.body.classList.toggle('menu-open');
+    });
+   </script>
+
+</body>
+</html>
